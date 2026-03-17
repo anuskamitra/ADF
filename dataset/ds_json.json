@@ -1,0 +1,19 @@
+{
+	"name": "ds_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkService_json",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "rest",
+				"fileSystem": "sink"
+			}
+		},
+		"schema": {}
+	}
+}
