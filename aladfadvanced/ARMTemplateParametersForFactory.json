@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "aladfadvanced"
+		},
+		"amLinkServiceAdvance_accountKey": {
+			"value": ""
+		},
+		"linkService_json_accountKey": {
+			"value": ""
+		},
+		"amLinkServiceAdvance_properties_typeProperties_url": {
+			"value": "https://amsourceadvance.dfs.core.windows.net/"
+		},
+		"RestService_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"linkService_json_properties_typeProperties_url": {
+			"value": "https://amsourceadvance.dfs.core.windows.net/"
+		}
+	}
+}
